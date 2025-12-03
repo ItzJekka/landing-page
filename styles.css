@@ -10,7 +10,7 @@ body {
 }
 
 .main-text {
-    font-size: 48px;
+    font-size: 30px;
     color: #f9faf8;
     font-weight: 900;
     margin-bottom: 4px;
@@ -19,7 +19,7 @@ body {
 .bellow-text {
     font-size: 18px;
     color: #e5e7eb;
-    margin-bottom: 24px;
+    margin-bottom: 10px;
 }
 
 a {
@@ -62,14 +62,16 @@ button {
 }
 
 .quote.text {
-    font-size: 36px;
+    font-size: 52px;
     color: #1F2937;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 .cards-img {
-    border: 5px #1F2937;
-    border-radius: 10px;
+    border: 2px;
+    border-color: #3882f6;
+    border-radius: 3px;
+    border-style: solid;
     width: 150px;
     height: 150px;
 }
@@ -84,3 +86,69 @@ button {
     padding: 10px 150px 50px 150px;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+.left-links {
+    display: flex;
+    gap: 25px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.info {
+    text-align: center;
+    padding: 10px 200px 50px 200px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.text { 
+    text-align: center;
+    margin: 0;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.person {
+    font-weight: bolder;
+    font-size: 16px;
+    text-align: end;
+    padding-top: 4px;
+}
+
+.action {
+    margin: 50px 200px 50px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-text-1 {
+    font-weight: bolder;
+    padding-bottom: 6px;    
+}
+
+.card-one,
+.card-two,
+.card-three,
+.card-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    flex-wrap: wrap;
+}
